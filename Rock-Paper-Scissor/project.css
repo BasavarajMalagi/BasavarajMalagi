@@ -1,0 +1,21 @@
+body{
+    background-color: aqua;
+    text-align: center;
+    
+}
+
+#startBtn{
+    height: 50px;
+    width:100px;
+    position: absolute;
+    top: 250px;
+    right: 700px;
+}
+
+.winner{
+    font-size: 50px;
+    
+}
+
+
+
