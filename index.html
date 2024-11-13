@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta information for character encoding, compatibility, and responsive design -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Linking the external CSS file for styling -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Modern Calculator</title> <!-- Page title displayed on the browser tab -->
+  </head>
+  <body>
+    <!-- Main container for the calculator UI -->
+    <div class="container">
+      <!-- Decorative elements, can be used for design purposes -->
+      <div class="circle"></div> <!-- Large circle for decoration -->
+      <div class="bg-button">6</div> <!-- Background button element, possibly for design -->
+      <div class="sm-circle"></div> <!-- Small circle for decoration -->
+
+      <!-- Calculator main section -->
+      <div class="calculator">
+        <!-- Display screen of the calculator -->
+        <div class="screen">
+          <p class="sub-text" id="sub-Val"></p> <!-- Sub-display text, usually for operations -->
+          <!-- Main display input box, disabled for user editing -->
+          <input type="text" class="main-text" id="main-val" value="0" disabled></input>
+        </div>
+
+        <!-- Container for calculator buttons -->
+        <div class="btns-container">
+          <span class="btn">AC</span> <!-- All Clear button -->
+          <span class="btn">⌫</span> <!-- Backspace button -->
+          <span class="btn op-btn">/</span> <!-- Division operator -->
+          <span class="btn op-btn">*</span> <!-- Multiplication operator -->
+          <span class="btn number-btn">7</span> <!-- Number button 7 -->
+          <span class="btn number-btn">8</span> <!-- Number button 8 -->
+          <span class="btn number-btn">9</span> <!-- Number button 9 -->
+          <span class="btn four number-btn">4</span> <!-- Number button 4 -->
+          <span class="btn five number-btn">5</span> <!-- Number button 5 -->
+          <span class="btn six number-btn">6</span> <!-- Number button 6 -->
+          <span class="btn minus op-btn">-</span> <!-- Subtraction operator -->
+          <span class="btn one number-btn">1</span> <!-- Number button 1 -->
+          <span class="btn two number-btn">2</span> <!-- Number button 2 -->
+          <span class="btn three number-btn">3</span> <!-- Number button 3 -->
+          <span class="btn plus op-btn">+</span> <!-- Addition operator -->
+          <span class="btn zero number-btn">0</span> <!-- Number button 0 -->
+          <span class="btn">.</span> <!-- Decimal point button -->
+          <span class="btn equal">=</span> <!-- Equals button for calculation -->
+        </div>
+      </div>
+    </div>
+    
+    <!-- Linking the external JavaScript file for functionality -->
+    <script src="script.js"></script>
+  </body>
+</html>
